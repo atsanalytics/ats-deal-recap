@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john.smith@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATS",
+        "desk": "crude"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATC",
+        "desk": "gasoline"
+    },
+    {
+        "id": 3,
+        "name": "Mike Chen",
+        "email": "mike.chen@shell.com",
+        "is_couterparty": true,
+        "company": "Shell Trading",
+        "office": null,
+        "desk": null
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "email": "emily.davis@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATL",
+        "desk": "diesel"
+    },
+    {
+        "id": 5,
+        "name": "Robert Wilson",
+        "email": "robert.wilson@bp.com",
+        "is_couterparty": true,
+        "company": "BP Trading",
+        "office": null,
+        "desk": null
+    },
+    {
+        "id": 6,
+        "name": "Lisa Anderson",
+        "email": "lisa.anderson@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATA",
+        "desk": "jet_fuel"
+    },
+    {
+        "id": 7,
+        "name": "David Kim",
+        "email": "david.kim@exxon.com",
+        "is_couterparty": true,
+        "company": "ExxonMobil Trading",
+        "office": null,
+        "desk": null
+    },
+    {
+        "id": 8,
+        "name": "Maria Rodriguez",
+        "email": "maria.rodriguez@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATF",
+        "desk": "fuel_oil"
+    },
+    {
+        "id": 9,
+        "name": "James Thompson",
+        "email": "james.thompson@chevron.com",
+        "is_couterparty": true,
+        "company": "Chevron Trading",
+        "office": null,
+        "desk": null
+    },
+    {
+        "id": 10,
+        "name": "Jennifer Lee",
+        "email": "jennifer.lee@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATS",
+        "desk": "gasoline"
+    },
+    {
+        "id": 11,
+        "name": "Alex Chen",
+        "email": "alex.chen@ats.com",
+        "is_couterparty": false,
+        "company": "ATS Trading",
+        "office": "ATS",
+        "desk": "crude"
+    },
+    {
+        "id": 12,
+        "name": "Liam Carter",
+        "email": "liam.carter@shell.com",
+        "is_couterparty": true,
+        "company": "Shell",
+        "office": null,
+        "desk": null
+    },
+    {
+        "id": 13,
+        "name": "Alex Kim",
+        "email": "alex.kim@atc.energy",
+        "is_couterparty": false,
+        "company": "ATC",
+        "office": "ATC",
+        "desk": "jet_fuel"
+    },
+    {
+        "id": 14,
+        "name": "Maya Singh",
+        "email": "maya.singh@trafigura.com",
+        "is_couterparty": true,
+        "company": "Trafigura",
+        "office": null,
+        "desk": "jet_fuel"
+    }
+]

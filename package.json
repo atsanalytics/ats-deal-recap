@@ -1,0 +1,29 @@
+{
+  "name": "ats-deal-recap",
+  "version": "1.0.0",
+  "description": "A simple React TypeScript app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "vite",
+    "blt": "vite build"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "helmet": "^7.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "serve": "^14.2.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

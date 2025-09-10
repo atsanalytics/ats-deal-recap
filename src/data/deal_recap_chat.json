@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Shell Crude Oil Deal Discussion",
+        "created_at": "2024-01-05T10:00:00Z",
+        "updated_at": "2024-01-05T10:30:00Z"
+    },
+    {
+        "id": 2,
+        "title": "BP Gasoline Pipeline Deal",
+        "created_at": "2024-01-10T14:00:00Z",
+        "updated_at": "2024-01-10T14:15:00Z"
+    },
+    {
+        "id": 3,
+        "title": "ExxonMobil Diesel Vessel Deal",
+        "created_at": "2024-01-15T09:30:00Z",
+        "updated_at": "2024-01-15T09:45:00Z"
+    },
+    {
+        "id": 4,
+        "title": "Deal: 500k bbl Arab Light CIF",
+        "created_at": "2025-09-09T02:19:46.795Z",
+        "updated_at": "2025-09-09T02:19:46.795Z"
+    },
+    {
+        "id": 5,
+        "title": "Jet A-1 CIF Rotterdam Deal",
+        "created_at": "2025-09-09T02:41:49.448Z",
+        "updated_at": "2025-09-09T02:41:49.448Z"
+    }
+]

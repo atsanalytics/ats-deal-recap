@@ -1,0 +1,33 @@
+name: Build and deploy Node.js app to Azure Web App - your-app-name
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout GitHub Action'
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js version
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: 'npm install and build'
+      run: |
+        npm install
+        npm run build
+
+    - name: 'Deploy to Azure Web App'
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'your-app-name'
+        slot-name: 'production'
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+        package: .

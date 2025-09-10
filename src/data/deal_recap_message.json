@@ -1,0 +1,296 @@
+[
+    {
+        "id": 1,
+        "chat_id": 1,
+        "user_id": 1,
+        "date": "2024-01-05T10:00:00Z",
+        "content": "Hi Mike, we're looking to purchase 500k barrels of crude for January loading. What's your best price?"
+    },
+    {
+        "id": 2,
+        "chat_id": 1,
+        "user_id": 3,
+        "date": "2024-01-05T10:05:00Z",
+        "content": "Hi John, we can offer 500k barrels FOB Rotterdam at $75.50/bbl for Jan 15-20 laycan."
+    },
+    {
+        "id": 3,
+        "chat_id": 1,
+        "user_id": 1,
+        "date": "2024-01-05T10:10:00Z",
+        "content": "That works for us. Can we confirm SGS inspection and Shell Explorer vessel?"
+    },
+    {
+        "id": 4,
+        "chat_id": 1,
+        "user_id": 3,
+        "date": "2024-01-05T10:15:00Z",
+        "content": "Yes, confirmed. SGS inspection and Shell Explorer. Deal done!"
+    },
+    {
+        "id": 5,
+        "chat_id": 2,
+        "user_id": 2,
+        "date": "2024-01-10T14:00:00Z",
+        "content": "Robert, we need 100k MT gasoline for Houston delivery end of January."
+    },
+    {
+        "id": 6,
+        "chat_id": 2,
+        "user_id": 5,
+        "date": "2024-01-10T14:05:00Z",
+        "content": "Sarah, we can do 100k MT CIF Houston at Dated Brent + $2.50 for Jan 25-30."
+    },
+    {
+        "id": 7,
+        "chat_id": 2,
+        "user_id": 2,
+        "date": "2024-01-10T14:10:00Z",
+        "content": "Perfect. Bureau Veritas inspection and pipeline delivery confirmed."
+    },
+    {
+        "id": 8,
+        "chat_id": 3,
+        "user_id": 4,
+        "date": "2024-01-15T09:30:00Z",
+        "content": "David, looking for 75k MT diesel FOB Singapore for February loading."
+    },
+    {
+        "id": 9,
+        "chat_id": 3,
+        "user_id": 7,
+        "date": "2024-01-15T09:35:00Z",
+        "content": "Emily, we can offer 75k MT at $680.25/MT FOB Singapore for Feb 1-5 laycan."
+    },
+    {
+        "id": 10,
+        "chat_id": 3,
+        "user_id": 4,
+        "date": "2024-01-15T09:40:00Z",
+        "content": "Excellent. Exxon Trader vessel and Intertek inspection confirmed."
+    },
+    {
+        "id": 11,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T08:00:00Z",
+        "content": "Shell, good morning. We can offer 500,000 barrels of crude on a CIF Rotterdam basis, laycan 15-25 July 2025, loaded on a single Aframax-class vessel; Arab Light blend (API 38-42, sulfur ≤1.0%), pre-load SGS inspection; Insurance and P&I to be arranged by seller; price is basis to Dated Brent: Dated Brent + 0.50 USD/bbl; loading window 5-7 days after LOI; vessel to be named 5 days prior to loading; please confirm if this structure works."
+    },
+    {
+        "id": 12,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T08:15:00Z",
+        "content": "Alex, thanks. We can work with CIF Rotterdam 500,000 bbl, laycan 15-25 July 2025, Arab Light blend, API 38-42, sulfur ≤1.0; price: Dated Brent + 0.55 USD/bbl; single cargo; acceptable grade; we'd need a firm vessel slot and pre-loading inspection by SGS."
+    },
+    {
+        "id": 13,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T08:25:00Z",
+        "content": "We can concede to Dated Brent + 0.55 only if you accept a fixed grade with strict specs; otherwise we stay at +0.50. Also require a 2-day confirmation window for final vessel selection."
+    },
+    {
+        "id": 14,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T08:40:00Z",
+        "content": "We'll fix at Dated Brent + 0.50 only, provided the grade remains Arab Light with API 38-42 and sulfur ≤1.0%; we want a single clear cargo and guaranteed laycan. If possible, confirm a tentative vessel that can meet 15-25 July laycan."
+    },
+    {
+        "id": 15,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T08:50:00Z",
+        "content": "Agreed on +0.50; grade remains Arab Light; tentative vessel would be an Aframax-class tanker capable of ~0.5–0.8 million barrels; we'll provide the exact name no later than July 5 and secure a firm timetable with the loading window."
+    },
+    {
+        "id": 16,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T09:00:00Z",
+        "content": "Understood. Vessel schedule target: loading window July 18-22, 2025; laycan remains 15-25 July; requires pre-load testing and sampling by SGS; confirm port of loading Rotterdam or nearby Antwerp if needed."
+    },
+    {
+        "id": 17,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T09:15:00Z",
+        "content": "Loading port Rotterdam (within ring of Rotterdam). Pre-load SGS sampling with two independent samples; 24-hour notice for sampling results; discharge port Rotterdam; Incoterms CIF Rotterdam."
+    },
+    {
+        "id": 18,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T09:25:00Z",
+        "content": "Copy that. We'll require LC-114 or LC at sight for payment terms; Net 30 days from discharge with LC settlement acceptable; confirm if you can accommodate that."
+    },
+    {
+        "id": 19,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T09:35:00Z",
+        "content": "Net 30 days from discharge with a documentary LC at sight is workable; we'll include standard ship-surety and P&I cover. Payment terms to be defined in the LC, and we'll align on the instrument in the LOI."
+    },
+    {
+        "id": 20,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T09:45:00Z",
+        "content": "LOI to be issued today with these terms and a firm vessel nomination; once signed, we'll proceed to a formal contract with annexes covering sampling protocol, P&I, hull, and cargo insurance."
+    },
+    {
+        "id": 21,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T09:55:00Z",
+        "content": "Great. Key contract details to capture: 500,000 bbl total volume; CIF Rotterdam; Laycan 15-25 July 2025; Price: Dated Brent + 0.50; Grade Arab Light (API 38-42; sulfur ≤1.0%); Vessel: named by July 5; SGS pre-load sampling; Incoterms CIF Rotterdam; Payment Net 30 days after discharge under LC."
+    },
+    {
+        "id": 22,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T10:05:00Z",
+        "content": "Agreed. We'll issue the LOI today and move toward a formal contract by the end of this week, including all annexes on vessel specs, sampling protocol, inspection, and payment mechanics."
+    },
+    {
+        "id": 23,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T10:15:00Z",
+        "content": "Perfect. Once the LOI is signed, we'll circulate a term sheet for signature and lock in the 15-25 July laycan, the CIF Rotterdam terms, and the Dated Brent basis."
+    },
+    {
+        "id": 24,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T10:25:00Z",
+        "content": "Confirmed. Looking forward to finalizing and issuing the formal contract shortly."
+    },
+    {
+        "id": 25,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T10:35:00Z",
+        "content": "We'll circulate a term sheet for signature and lock in the 15-25 July laycan, the CIF Rotterdam terms, and the Dated Brent basis."
+    },
+    {
+        "id": 26,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T10:50:00Z",
+        "content": "Confirmed. We'll issue the LOI today and move toward a formal contract by the end of this week, including all annexes on vessel specs, sampling protocol, inspection, and payment mechanics."
+    },
+    {
+        "id": 27,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T11:10:00Z",
+        "content": "Loading port Rotterdam (within ring of Rotterdam). Pre-load SGS sampling with two independent samples; 24-hour notice for sampling results; discharge port Rotterdam; Incoterms CIF Rotterdam; Payment Net 30 days after discharge under LC."
+    },
+    {
+        "id": 28,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T11:25:00Z",
+        "content": "Copy that. We'll require LC-114 or LC at sight for payment terms; Net 30 days from discharge with LC settlement acceptable; confirm if you can accommodate that."
+    },
+    {
+        "id": 29,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T11:40:00Z",
+        "content": "Net 30 days from discharge with a documentary LC at sight is workable; we'll include standard ship-surety and P&I cover. Payment terms to be defined in the LC, and we'll align on the instrument in the LOI."
+    },
+    {
+        "id": 30,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T11:50:00Z",
+        "content": "LOI to be issued today with these terms and a firm vessel nomination; once signed, we'll proceed to a formal contract with annexes covering sampling protocol, P&I, hull, and cargo insurance."
+    },
+    {
+        "id": 31,
+        "chat_id": 4,
+        "user_id": 11,
+        "date": "2025-07-15T12:00:00Z",
+        "content": "Great. Key contract details to capture: 500,000 bbl total volume; CIF Rotterdam; Laycan 15-25 July 2025; Price: Dated Brent + 0.50; Grade Arab Light (API 38-42; sulfur ≤1.0%); Vessel: named by July 5; SGS pre-load sampling; Incoterms CIF Rotterdam; Payment Net 30 days after discharge under LC."
+    },
+    {
+        "id": 32,
+        "chat_id": 4,
+        "user_id": 12,
+        "date": "2025-07-15T12:10:00Z",
+        "content": "Agreed. We'll issue the LOI today and move toward a formal contract by the end of this week, including all annexes on vessel specs, sampling protocol, inspection, and payment mechanics."
+    },
+    {
+        "id": 33,
+        "chat_id": 5,
+        "user_id": 13,
+        "date": "2025-10-01T08:12:00Z",
+        "content": "Good morning Maya. ATC is looking to secure 500,000 barrels of Jet A-1 for delivery to Rotterdam. We propose a fixed-price CIF Rotterdam arrangement, split into two consignments of 250,000 bbl each. Laycan window: 12-22 October 2025. Loading port Ras Tanura, Saudi Arabia. Vessel options: M/T Atlas Spirit (250,000 bbl) for 12-16 Oct and M/T Ocean Monarch (250,000 bbl) for 18-22 Oct. Quality specs: Jet A-1 per ASTM D1655, sulfur max 0.30%, density 0.775–0.800 kg/L at 15 C. Insurance and freight included under CIF; SGS to perform loading QC and COA to be issued by supplier."
+    },
+    {
+        "id": 34,
+        "chat_id": 5,
+        "user_id": 14,
+        "date": "2025-10-01T08:25:00Z",
+        "content": "Morning Alex. Trafigura can work with the CIF fixed-price structure. Our initial target price is USD 102.90/bbl CIF Rotterdam for 500,000 bbl total, split into two 250k bbl consignments with laycan 12-22 October 2025. Loading port Ras Tanura. Vessel options include Atlas Spirit or Ocean Monarch if they meet specs. We require an LOI and a POF; contract draft to follow promptly."
+    },
+    {
+        "id": 35,
+        "chat_id": 5,
+        "user_id": 13,
+        "date": "2025-10-01T08:40:00Z",
+        "content": "We can meet USD 102.75/bbl CIF Rotterdam, two consignments of 250,000 bbl each; laycan 12-22 October 2025. Vessel plan: M/T Atlas Spirit for 12-16 Oct and M/T Ocean Monarch for 18-22 Oct. Loading Ras Tanura; SGS inspection at loading; COA to be issued; insurance included under CIF; B/Ls to Rotterdam."
+    },
+    {
+        "id": 36,
+        "chat_id": 5,
+        "user_id": 14,
+        "date": "2025-10-01T09:00:00Z",
+        "content": "Agreed on price at 102.75, two consignments. To finalize, we propose 30 days net from delivery, with option for a 0.5% early payment discount if paid within 15 days; standby LC of 0.5% of contract value; bank charges on LC to be shared."
+    },
+    {
+        "id": 37,
+        "chat_id": 5,
+        "user_id": 13,
+        "date": "2025-10-01T09:15:00Z",
+        "content": "Terms accepted. We'll offer 30 days net from delivery and standby LC of 0.5% of contract value, with a 0.5% late-payment fee if past due. LOI should clearly state Jet A-1 per ASTM D1655, sulfur max 0.30%, density 0.775–0.800 at 15 C, CIF Rotterdam; B/Ls in transit to Rotterdam; insurance and freight included."
+    },
+    {
+        "id": 38,
+        "chat_id": 5,
+        "user_id": 14,
+        "date": "2025-10-01T09:25:00Z",
+        "content": "LOI will reflect the above terms and include vessel names, Ras Tanura loading port, laycan 12-22 Oct 2025, and the two 250k bbl consignments. We will require SGS sampling and COA at loading, as well as LOA and bank details to issue the LC. We’ll aim to finalize within 24 hours."
+    },
+    {
+        "id": 39,
+        "chat_id": 5,
+        "user_id": 13,
+        "date": "2025-10-01T09:35:00Z",
+        "content": "Draft LOI attached includes: 500,000 bbl Jet A-1, two consignments of 250,000 bbl each, CIF Rotterdam, fixed price USD 102.75/bbl, laycan 12-22 Oct 2025, loading Ras Tanura, vessels M/T Atlas Spirit (12-16 Oct) and M/T Ocean Monarch (18-22 Oct), SGS inspection, COA, P&I/hull under CIF, 30 days net payment, standby LC 0.5%, B/Ls to Rotterdam."
+    },
+    {
+        "id": 40,
+        "chat_id": 5,
+        "user_id": 14,
+        "date": "2025-10-01T10:00:00Z",
+        "content": "Counter-signature received. We will proceed to contract drafting and bank mechanics. Please provide bank details to issue the LC; we expect drafting to be finalized within 3–5 business days and contract execution shortly thereafter."
+    },
+    {
+        "id": 41,
+        "chat_id": 5,
+        "user_id": 13,
+        "date": "2025-10-01T10:10:00Z",
+        "content": "LOI countersignature completed. We’ll circulate the draft contract today, including the two-leg schedule, B/Ls, and performance security. If all good, we target signature within 3 business days and commence vessel confirmations."
+    },
+    {
+        "id": 42,
+        "chat_id": 5,
+        "user_id": 14,
+        "date": "2025-10-01T10:20:00Z",
+        "content": "Deal closed. Fixed price USD 102.75/bbl for 500,000 bbl Jet A-1 CIF Rotterdam; laycan 12-22 October 2025; two 250k bbl consignments; loading Ras Tanura; vessels M/T Atlas Spirit (12-16 Oct) and M/T Ocean Monarch (18-22 Oct); SGS QC at loading; COA issued; CIF Rotterdam; 30 days net payment; standby LC 0.5%; contract to be executed within 3–5 days."
+    }
+]
