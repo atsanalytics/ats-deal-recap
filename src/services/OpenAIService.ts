@@ -535,7 +535,16 @@ Parse the conversation and extract:
 For users, determine if they are counterparties based on their company:
 - If company is ATS Trading or office is ATC/ATS/ATL/ATA/ATF, then is_couterparty = false (our company)
 - If company is any other company (Shell, BP, Exxon, etc.), then is_couterparty = true (counterparty)
+- If no company information is available, use "Unknown" as company and set is_couterparty = true (assume counterparty)
+
 For messages, extract the content and assign realistic timestamps based on the conversation flow.
+
+Handle different scenarios:
+- If speakers are identified by name, use their names
+- If speakers are generic (e.g., "Speaker", "Trader", "Counterparty"), use those names
+- If no clear speaker identification, use "Unknown" as name and email
+- For single-person conversations, create one user entry
+- For unknown speakers, use "Unknown" as name and "unknown@unknown.com" as email
 
 Format the response as structured data.`
             },
@@ -786,11 +795,57 @@ Make it a realistic conversation between our trader and the counterparty, includ
     // Use AI to format the conversation with proper speaker attribution
     private async formatConversationWithAI(transcription: string, participants: string[]): Promise<string> {
         try {
-            const participant1 = participants[0] || 'Speaker 1';
-            const participant2 = participants[1] || 'Speaker 2';
+            let prompt: string;
             
-            const prompt = `Please format this audio transcription into a conversation between two participants. 
-            
+            if (participants.length === 0) {
+                // No participants provided - let AI identify speakers
+                prompt = `Please format this audio transcription into a conversation. 
+                
+Transcription:
+${transcription}
+
+Please format it as a conversation where each line follows this pattern:
+"Speaker Name: Message content"
+
+Make sure to:
+1. Identify who is speaking based on context and conversation flow
+2. Use appropriate names for speakers (e.g., "Trader", "Counterparty", "Speaker 1", etc.)
+3. Add proper line breaks between speakers
+4. Keep the original meaning and content intact
+5. Format it like a natural conversation
+6. If it's a single person speaking, format as "Speaker: Message content"
+
+Return only the formatted conversation text.`;
+            } else if (participants.length === 1) {
+                // Single participant provided
+                const participant = participants[0];
+                prompt = `Please format this audio transcription into a conversation. 
+                
+Participant:
+- ${participant}
+
+Transcription:
+${transcription}
+
+Please format it as a conversation where each line follows this pattern:
+"Speaker Name: Message content"
+
+Make sure to:
+1. Identify who is speaking based on context and conversation flow
+2. Use the provided participant name when appropriate
+3. Add other speakers as needed (e.g., "Counterparty", "Other Speaker")
+4. Add proper line breaks between speakers
+5. Keep the original meaning and content intact
+6. Format it like a natural conversation
+7. If it's a single person speaking, use the provided participant name
+
+Return only the formatted conversation text.`;
+            } else {
+                // Multiple participants provided
+                const participant1 = participants[0];
+                const participant2 = participants[1];
+                prompt = `Please format this audio transcription into a conversation between participants. 
+                
 Participants:
 - ${participant1}
 - ${participant2}
@@ -799,16 +854,17 @@ Transcription:
 ${transcription}
 
 Please format it as a conversation where each line follows this pattern:
-"Name (Role-email): Message content"
+"Speaker Name: Message content"
 
 Make sure to:
 1. Identify who is speaking based on context and conversation flow
-2. Use the exact participant names provided
+2. Use the provided participant names when appropriate
 3. Add proper line breaks between speakers
 4. Keep the original meaning and content intact
 5. Format it like a natural conversation
 
 Return only the formatted conversation text.`;
+            }
 
             const response = await this.chatCompletion({
                 model: 'gpt-4o-mini',

@@ -10,6 +10,7 @@ import ConversationDetail from './components/ConversationDetail'
 import AudioList from './components/AudioList'
 import EmailList from './components/EmailList'
 import EmailDetailPage from './components/EmailDetailPage'
+import RecordPage from './components/RecordPage'
 import './App.css'
 
 function App(): JSX.Element {
@@ -27,6 +28,7 @@ function App(): JSX.Element {
                             <Link to="/chats" className="nav-link">Chats</Link>
                             <Link to="/audios" className="nav-link">Audios</Link>
                             <Link to="/emails" className="nav-link">Emails</Link>
+                            <Link to="/record" className="nav-link">Record</Link>
                             <Link to="/users" className="nav-link">Users</Link>
                         </div>
                     </div>
@@ -44,6 +46,7 @@ function App(): JSX.Element {
                         <Route path="/audios" element={<AudioList />} />
                         <Route path="/emails" element={<EmailList />} />
                         <Route path="/email" element={<EmailDetailPage />} />
+                        <Route path="/record" element={<RecordPage />} />
                         <Route path="/users" element={<Users />} />
                     </Routes>
                 </main>

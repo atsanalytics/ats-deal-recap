@@ -152,6 +152,96 @@ export class SessionStorageService {
         return newConversation;
     }
 
+    // Alias for addConversation
+    public saveConversation(conversation: Omit<DealRecapConversation, 'id'>): DealRecapConversation {
+        return this.addConversation(conversation);
+    }
+
+    // Add new user with unique ID
+    public saveUser(user: Omit<DealRecapUser, 'id'>): DealRecapUser {
+        const users = this.getUsers();
+        const maxId = users.length > 0 ? Math.max(...users.map(u => u.id)) : 0;
+        const newId = maxId + 1;
+        
+        const newUser: DealRecapUser = {
+            ...user,
+            id: newId
+        };
+        
+        const updatedUsers = [...users, newUser];
+        this.updateUsers(updatedUsers);
+        
+        return newUser;
+    }
+
+    // Add new chat with unique ID
+    public saveChat(chat: Omit<any, 'id'>): any {
+        const chats = this.getChats();
+        const maxId = chats.length > 0 ? Math.max(...chats.map(c => c.id)) : 0;
+        const newId = maxId + 1;
+        
+        const newChat = {
+            ...chat,
+            id: newId
+        };
+        
+        const updatedChats = [...chats, newChat];
+        this.updateChats(updatedChats);
+        
+        return newChat;
+    }
+
+    // Add new message with unique ID
+    public saveMessage(message: Omit<any, 'id'>): any {
+        const messages = this.getMessages();
+        const maxId = messages.length > 0 ? Math.max(...messages.map(m => m.id)) : 0;
+        const newId = maxId + 1;
+        
+        const newMessage = {
+            ...message,
+            id: newId
+        };
+        
+        const updatedMessages = [...messages, newMessage];
+        this.updateMessages(updatedMessages);
+        
+        return newMessage;
+    }
+
+    // Add new deal with unique ID
+    public saveDeal(deal: Omit<DealRecap, 'id'>): DealRecap {
+        const deals = this.getDeals();
+        const maxId = deals.length > 0 ? Math.max(...deals.map(d => d.id)) : 0;
+        const newId = maxId + 1;
+        
+        const newDeal: DealRecap = {
+            ...deal,
+            id: newId
+        };
+        
+        const updatedDeals = [...deals, newDeal];
+        this.updateDeals(updatedDeals);
+        
+        return newDeal;
+    }
+
+    // Add new extraction with unique ID
+    public saveExtraction(extraction: Omit<any, 'id'>): any {
+        const extractions = this.getExtractions();
+        const maxId = extractions.length > 0 ? Math.max(...extractions.map(e => e.id)) : 0;
+        const newId = maxId + 1;
+        
+        const newExtraction = {
+            ...extraction,
+            id: newId
+        };
+        
+        const updatedExtractions = [...extractions, newExtraction];
+        this.updateExtractions(updatedExtractions);
+        
+        return newExtraction;
+    }
+
     // Clear all session storage data
     public clearAll(): void {
         Object.values(STORAGE_KEYS).forEach(key => {
