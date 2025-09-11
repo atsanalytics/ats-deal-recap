@@ -57,7 +57,7 @@ const HomePage: React.FC = () => {
         <div className="home-page">
             <header className="app-header">
                 <h1>Welcome to ATC Deal Recap</h1>
-                <p>Your simple React TypeScript application is ready</p>
+                <p>Extract and manage deal information from conversations, emails, and audio recordings to create comprehensive deal recaps for energy trading</p>
             </header>
         </div>
     );
